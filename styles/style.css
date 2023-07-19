@@ -10,3 +10,59 @@
 body {
   font-family: "Work Sans", sans-serif;
 }
+
+header {
+  background: #fff;
+  box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+}
+.header-container {
+  height: 8.125rem;
+  width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+}
+.logo-title {
+  font-size: 2.75rem;
+  font-weight: 700;
+}
+.colourful-letter {
+  background: var(--linear, linear-gradient(90deg, #ff42a5 0%, #ff42a5 100%));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.nav > ul {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+.nav > ul li {
+  list-style: none;
+}
+.nav li a,
+.nav li button {
+  color: #3c354f;
+  text-decoration: none;
+  font-size: 1.125rem;
+  font-weight: 500;
+}
+.nav li button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  width: 262px;
+  height: 56px;
+  border: none;
+  border-radius: 8px;
+  background: rgba(11, 2, 35, 0.1);
+  cursor: pointer;
+}
