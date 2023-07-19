@@ -154,7 +154,6 @@
   .single-sponsor p {
     font-size: 14px;
   }
-
   /* footer   */
   .footer-menu {
     grid-template-columns: repeat(3, 1fr);
