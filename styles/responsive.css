@@ -36,6 +36,21 @@
   .btn-primary:last-child {
     margin-left: 0.625rem;
   }
+
+  /* footer   */
+  .footer-menu {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+  }
+  .social-media {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+  }
+  .privacy-menu {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 3rem;
+  }
 }
 
 /* responsiveness for tablet device */
@@ -62,4 +77,21 @@
   .banner-image img {
     width: 100%;
   }
+  /* footer   */
+  .footer-menu {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+  }
+  .social-media {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+  }
+  .privacy-menu {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 3rem;
+  }
+}
+main {
+  display: none;
 }
