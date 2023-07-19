@@ -1,0 +1,15 @@
+/* responsive for mobile device */
+@media screen and (max-width: 576px) {
+  .header-container {
+    flex-direction: column;
+  }
+  .nav > ul {
+    flex-direction: column;
+  }
+  .logo {
+    margin-bottom: 3.5rem;
+  }
+  .nav li:last-child {
+    margin: 1.75rem 0;
+  }
+}
