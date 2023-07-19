@@ -228,3 +228,41 @@ header {
   color: #ff42a5;
 }
 /* sponsonr section end */
+
+/* footer */
+.footer {
+  background: #0b0223;
+  color: #fff;
+  padding: 7.5rem 0;
+}
+.footer-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+ul.footer-menu {
+  display: flex;
+  gap: 3.75rem;
+  margin: 3.5rem 0;
+}
+.footer-menu li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+}
+.social-media {
+  display: flex;
+  gap: 2.5rem;
+}
+ul.privacy-menu {
+  margin-bottom: 1rem;
+}
+.privacy-menu li a,
+.copyright {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 1rem;
+  font-weight: 500;
+}
+/* footer end */
