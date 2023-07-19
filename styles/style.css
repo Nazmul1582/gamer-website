@@ -10,7 +10,11 @@
 body {
   font-family: "Work Sans", sans-serif;
 }
-
+main {
+  width: 1440px;
+  margin: 0 auto;
+}
+/* header */
 header {
   background: #fff;
   box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
@@ -66,3 +70,7 @@ header {
   background: rgba(11, 2, 35, 0.1);
   cursor: pointer;
 }
+/* header end  */
+
+/* banner section  */
+/* banner section end  */
