@@ -48,11 +48,19 @@
     flex-direction: column;
   }
   .play-game-content {
-    padding: 0 7rem;
+    padding: 0 1.5rem;
     text-align: center;
   }
   .play-game-content .section-desc {
     margin: 2rem 0 4rem;
+  }
+  .play-game-image img:first-child {
+    width: 300px;
+  }
+  .small-pic {
+    bottom: -4em;
+    left: -2.5rem;
+    width: 150px;
   }
   /* sponsor section */
   .sponsors {
@@ -124,6 +132,14 @@
   }
   .play-game-content .section-desc {
     margin: 2rem 0 4rem;
+  }
+  .play-game-image img {
+    max-width: 100%;
+  }
+  .small-pic {
+    bottom: -4em;
+    left: -2.5rem;
+    width: 250px;
   }
   /* sponsor section */
   .sponsors {
