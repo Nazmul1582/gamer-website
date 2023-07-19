@@ -12,4 +12,54 @@
   .nav li:last-child {
     margin: 1.75rem 0;
   }
+
+  .banner-container {
+    flex-direction: column-reverse;
+  }
+  .banner-content {
+    padding: 4rem;
+    margin-left: 0;
+  }
+  .banner-content h2 {
+    font-size: 2rem;
+  }
+  .banner-content h1 {
+    font-size: 4rem;
+  }
+  .banner-image img {
+    width: 100%;
+  }
+  .btn-primary {
+    padding: 0.75rem 1.25rem;
+    font-size: 1rem;
+  }
+  .btn-primary:last-child {
+    margin-left: 0.625rem;
+  }
+}
+
+/* responsiveness for tablet device */
+@media screen and (min-width: 576px) and (max-width: 768px) {
+  .header-container {
+    flex-direction: column;
+  }
+  .nav > ul {
+    flex-direction: column;
+  }
+  .logo {
+    margin-bottom: 3.5rem;
+  }
+  .nav li:last-child {
+    margin: 1.75rem 0;
+  }
+  .banner-container {
+    flex-direction: column-reverse;
+  }
+  .banner-content {
+    padding: 6.375rem;
+    margin-left: 0;
+  }
+  .banner-image img {
+    width: 100%;
+  }
 }
