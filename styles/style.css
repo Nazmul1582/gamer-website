@@ -28,7 +28,7 @@ li {
   padding: 20px 40px;
   cursor: pointer;
 }
-.section-padding {
+.section-specing {
   margin: 120px 0;
 }
 .section-title {
@@ -165,3 +165,24 @@ header {
   line-height: 30px;
 }
 /* online game section end */
+
+/* play-game section  */
+.play-game {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.play-game-content {
+  padding: 0 13rem;
+  text-align: right;
+}
+.play-game-image {
+  position: relative;
+}
+.small-pic {
+  position: absolute;
+  bottom: -6rem;
+  left: -9.5rem;
+}
+
+/* play-game section end */
