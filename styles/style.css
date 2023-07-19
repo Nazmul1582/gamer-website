@@ -177,6 +177,9 @@ header {
   padding: 0 13rem;
   text-align: right;
 }
+.play-game-content .section-desc {
+  margin-top: 1.5rem;
+}
 .play-game-image {
   position: relative;
 }

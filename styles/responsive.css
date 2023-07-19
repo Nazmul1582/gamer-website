@@ -77,6 +77,17 @@
   .banner-image img {
     width: 100%;
   }
+  /* play-game section  */
+  .play-game {
+    flex-direction: column;
+  }
+  .play-game-content {
+    padding: 0 7rem;
+    text-align: center;
+  }
+  .play-game-content .section-desc {
+    margin: 2rem 0 4rem;
+  }
   /* footer   */
   .footer-menu {
     grid-template-columns: repeat(3, 1fr);
@@ -91,7 +102,4 @@
     justify-content: center;
     gap: 3rem;
   }
-}
-main {
-  display: none;
 }
