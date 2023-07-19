@@ -90,19 +90,27 @@ header {
   justify-content: space-between;
   gap: 4rem;
 }
+.banner-content {
+  background: url("../images/Group\ 14.png") no-repeat top right;
+  background-size: cover;
+  padding: 9.25rem 16rem;
+  margin-left: -16rem;
+}
 .banner-content h2 {
   color: #0b0223;
   font-size: 3rem;
   font-weight: 600;
 }
-.banner-container h1 {
+.banner-content h1 {
   font-size: 6rem;
   font-weight: 700;
   background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  margin-bottom: 1.5rem;
+}
+.banner-content ul {
+  margin: 1.5rem 0 2.5rem;
 }
 .banner-content li {
   display: flex;
@@ -112,5 +120,6 @@ header {
 }
 .btn-primary:last-child {
   background: #4ec5f7;
+  margin-left: 1.25rem;
 }
 /* banner section end  */
