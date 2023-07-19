@@ -28,6 +28,27 @@ li {
   padding: 20px 40px;
   cursor: pointer;
 }
+.section-padding {
+  margin: 120px 0;
+}
+.section-title {
+  color: #0b0223;
+  font-size: 48px;
+  font-weight: 700;
+}
+.section-desc {
+  color: #534c64;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+}
+.colourful-text {
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 /* header */
 header {
   background: #fff;
@@ -54,7 +75,6 @@ header {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-
 .nav > ul {
   display: flex;
   align-items: center;
@@ -121,3 +141,27 @@ header {
   margin-left: 1.25rem;
 }
 /* banner section end  */
+
+/* online game section  */
+.online-game-title {
+  text-align: center;
+}
+.online-game-title h2 {
+  margin-bottom: 1rem;
+}
+.online-game-content {
+  display: flex;
+  margin-top: 3rem;
+  gap: 1.5rem;
+}
+.card {
+  width: 21.25rem;
+}
+.online-game-content figcaption {
+  margin-top: 1rem;
+  color: #534c64;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+}
+/* online game section end */
